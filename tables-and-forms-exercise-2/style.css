@@ -1,0 +1,31 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, );
+  -moz-transform: translate(-50%, );
+  -ms-transform: translate(-50%, );
+  -o-transform: translate(-50%, );
+}
+
+td {
+ padding: 10px 30px 10px 10px;
+ border-left: 5px solid gray;
+ text-transform: capitalize;
+}
+
+.table tr td:first-of-type {
+  border-left: 5px solid green;
+
+}
+
+.table tr:nth-child(odd) td:first-of-type {
+ border-left: 5px solid red;
+}
